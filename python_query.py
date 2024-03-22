@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 def query_blob_hash(collection_name, blob_hash):
     # Connect to MongoDB
-    client = MongoClient('localhost', 27017)
+    client = MongoClient('localhost', 28907)
 
     # Access the database
     db = client['blob_storage']
